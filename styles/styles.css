@@ -5,31 +5,61 @@
   /* background-color: #FF0000 */
 }
 
+a{
+  text-decoration: none;
+}
+
 /* .center{
   align-self: center;
 } */
 
-.name_header{
-  color: black;
-  font-size: 32px;
-  font-family: sans-serif;
-  text-align: center;
-  font-weight: bold;
+body{
+  background-color: #333;
 }
-.name_header:hover{
+
+img{
+  width: 50;
+  height: 50;
+}
+
+.main_header{
+  border-bottom: 5px solid #333;
+  border-top: 5px solid #333;
+}
+
+.header_name{
+  float: left;
+  width: 60%;
+  color: black;
+  font-size: 64px;
+  font-weight: bold;
+  padding: 10px 0px 10px 25px;
+}
+.header_name:hover{
   color: #0024b7;
-  text-decoration: underline;
+  /* text-decoration: underline; */
+}
+
+.header_about{
+  float: right;
+  width: 30%;
+  /* padding: 25 0 25 0; */
+  vertical-align: middle;
 }
 
 .main_class {
   max-width: 1000px;
   margin: auto;
-  padding: 10 0 10 0;
-  background-color: #c170ff
+  /* padding: 10 0 10 0; */
+  background-color: #c170ff;
+  height: 99.5%;
+  border-bottom: 5px solid #333;
 }
 
 .stories_header{
-  padding-left: 5px;
+  /* padding-left: 15px; */
+  padding: 15px;
+  text-decoration: none;
 }
 
 .story{
@@ -37,18 +67,28 @@
 }
 
 .story_title{
-  padding-left: 5px;
-  font-size: 32px;
+  font-size: 48px;
+  /* padding-left: 5px; */
   margin: 0px;
   padding: 5px;
 }
 
+.story_title:hover{
+  color: #0024b7;
+}
+
 .story_update{
-  padding-left: 20px;
+  padding-left: 5px;
+  padding-bottom: 5px;
   font-size: 12px;
+  color: #555;
 }
 
 .story_desc{
   padding-left: 20px;
   font-size: 20px;
+}
+
+.stop_float{
+  clear: both;
 }
