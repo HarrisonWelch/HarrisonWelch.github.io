@@ -14,7 +14,6 @@ a:visited {
     text-decoration: none;
 }
 
-
 /* .center{
   align-self: center;
 } */
@@ -106,18 +105,34 @@ img {
     float: left;
     width: 25%;
     border-left: 5px solid #333;
-    height: 80%;
-    padding: 5px;
+    height: 200%;
+    /* padding: 5px; */
 }
 
 .about_photo {
-    width: 100%;
+    width: 103%;
     height: auto;
+    padding: 5px;
 }
 
 .about_social {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 24px;
-    padding: 5px;
+}
+
+.about_social_img {
+  padding: 5px 0px 0px 5px;
+  height: auto;
+  width: 18%;
+}
+
+.about_social_bar {
+  /* background: #333; */
+  /* margin: 5px; */
+  margin: none;
+  width: 108%;
+  border-top: 5px solid #333;
+  border-bottom: 5px solid #333;
+  padding-left: 15px;
 }
