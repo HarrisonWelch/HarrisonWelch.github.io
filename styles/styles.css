@@ -34,7 +34,7 @@ img {
 
 .header_name {
     float: left;
-    width: 60%;
+    width: 65%;
     color: black;
     font-size: 64px;
     font-weight: bold;
@@ -126,7 +126,7 @@ img {
 }
 
 .about_photo {
-    width: 103%;
+    width: 103.5%;
     height: auto;
     padding: 5px;
 }
@@ -138,9 +138,9 @@ img {
 }
 
 .about_social_img {
-  padding: 5px 0px 0px 5px;
+  padding: 5px 0px 0px 23px;
   height: auto;
-  width: 18%;
+  width: 10%;
 }
 
 .about_social_img:hover {
@@ -164,4 +164,23 @@ img {
   padding-top: 10px;
   padding-left: 10px;
   width: 100%;
+}
+
+.about_email {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 10px;
+  padding-left: 2px;
+  width: 100%;
+}
+
+.about_email:hover {
+    color: #0024b7;
+}
+
+.quick_border {
+  width: 120%;
+  padding-top: 12px;
+  border-bottom: 5px solid #333;
 }
