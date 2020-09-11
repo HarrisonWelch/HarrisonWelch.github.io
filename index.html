@@ -273,15 +273,16 @@
 							<p>Feel free to leave your name, email, and message and I'll get back to as soon you can. Thank you!<br> 
 							- Harrison</p>
 
-							<form method="post" action="#">
+							<!-- <form method="post" action="#"> -->
+							<form>
 								<div class="row">
-									<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
-									<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
+									<div class="col-6 col-12-mobile"><input id="sendMessageName" type="text" name="name" placeholder="Name" /></div>
+									<div class="col-6 col-12-mobile"><input id="sendMessageEmail" type="text" name="email" placeholder="Email" /></div>
 									<div class="col-12">
 										<textarea name="message" placeholder="Message"></textarea>
 									</div>
 									<div class="col-12 textcenter">
-										<input type="submit" value="Send Message" />
+										<input id="sendMessageButton" type="submit" value="Send Message" />
 									</div>
 								</div>
 							</form>
@@ -309,6 +310,7 @@
 			<script src="./assets/js/breakpoints.min.js"></script>
 			<script src="./assets/js/util.js"></script>
 			<script src="./assets/js/main.js"></script>
+			<script src="./assets/js/harrison.js"></script>
 
 	</body>
 </html>
