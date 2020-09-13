@@ -307,22 +307,32 @@
 								action="https://formspree.io/xjvpbkvj"
 								method="POST"
 								>
-								<label>
-									Your Name:
-									<input type="text" name="name">
-								</label>
-								<label>
-									Your email:
-									<input type="text" name="_replyto">
-								</label>
-								<label>
-									Your message:
-									<textarea name="message"></textarea>
-								</label>
+								<div class="row">
+									<div class="col-6 col-12-mobile">
+										<label>
+											Your Name:
+											<input type="text" name="name">
+										</label>
+									</div>
+									<div  class="col-6 col-12-mobile">
+										<label>
+											Your email:
+											<input type="text" name="_replyto">
+										</label>
+									</div>
+								</div>
+								<div class="col-12">
+									<label>
+										Your message:
+										<textarea name="message"></textarea>
+									</label>
+								</div>
 							
 								<!-- your other form fields go here -->
 							
-								<button type="submit">Send</button>
+								<div class="col-12 textcenter">
+									<button id="sendMessageButton" type="submit">Send</button>
+								</div>
 							</form>
 
 						</div>
