@@ -289,10 +289,12 @@
 							- Harrison</p>
 
 							<!-- <form method="post" action="#"> -->
-							<form>
+							<!-- <form 
+								action="https://formspree.io/FORM_ID"
+								method="post">
 								<div class="row">
 									<div class="col-6 col-12-mobile"><input id="sendMessageName" type="text" name="name" placeholder="Name" /></div>
-									<div class="col-6 col-12-mobile"><input id="sendMessageEmail" type="text" name="email" placeholder="Email" /></div>
+									<div class="col-6 col-12-mobile"><input id="sendMessageEmail" type="text" name="_replyto" placeholder="Email" /></div>
 									<div class="col-12">
 										<textarea input id="sendMessageBody" name="message" placeholder="Message"></textarea>
 									</div>
@@ -300,6 +302,27 @@
 										<input id="sendMessageButton" type="submit" value="Send Message" />
 									</div>
 								</div>
+							</form> -->
+							<form
+								action="https://formspree.io/xjvpbkvj"
+								method="POST"
+								>
+								<label>
+									Your Name:
+									<input type="text" name="name">
+								</label>
+								<label>
+									Your email:
+									<input type="text" name="_replyto">
+								</label>
+								<label>
+									Your message:
+									<textarea name="message"></textarea>
+								</label>
+							
+								<!-- your other form fields go here -->
+							
+								<button type="submit">Send</button>
 							</form>
 
 						</div>
